@@ -31,6 +31,9 @@ a:hover{
 .bg-mix{
     background:linear-gradient(180deg, var(--ligth) 50%, var(--grey) 0)
 }
+.avatar{
+    max-width: 32px;
+}
 #sidebar-container{
     min-height: 100vh;
 }
