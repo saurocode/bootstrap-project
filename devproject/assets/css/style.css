@@ -9,6 +9,9 @@ body{
     font-weight: 300;
     color: var(--primary);
 }
+a:hover{
+    text-decoration: none;
+}
 .bg-primary{
     background-color: var(--primary) !important;
 }
@@ -20,7 +23,4 @@ body{
 }
 #sidebar-container .menu{
     width: 18rem;
-}
-#sidebar-container{
-    
 }
