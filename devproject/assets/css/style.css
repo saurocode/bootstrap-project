@@ -15,6 +15,9 @@ a:hover{
 .bg-primary{
     background-color: var(--primary) !important;
 }
+.bg-light{
+    background-color: var(--ligth) !important;
+}
 #sidebar-container{
     min-height: 100vh;
 }
@@ -23,4 +26,10 @@ a:hover{
 }
 #sidebar-container .menu{
     width: 18rem;
+}
+.btn-search{
+    right: 5px;
+}
+.avatar{
+    max-width: 32px;
 }
