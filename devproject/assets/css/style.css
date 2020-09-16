@@ -15,6 +15,22 @@ a:hover{
 .bg-primary{
     background-color: var(--primary) !important;
 }
+.btn-primary{
+    background-color: var(--primary) !important;
+}
+.btn{
+    border: 0;
+
+}
+.btn-primary:hover{
+    background-color: var(--primary);
+}
+.stat{
+    border-right: 1px solid var(--grey);
+}
+.bg-mix{
+    background:linear-gradient(180deg, var(--ligth) 50%, var(--grey) 0)
+}
 #sidebar-container{
     min-height: 100vh;
 }
@@ -23,4 +39,9 @@ a:hover{
 }
 #sidebar-container .menu{
     width: 18rem;
+}
+#content{
+    overflow-y: auto;
+    height: 100vh;
+    padding-bottom: 5rem;
 }
