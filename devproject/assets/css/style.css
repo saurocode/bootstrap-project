@@ -18,9 +18,12 @@ a:hover{
 .btn-primary{
     background-color: var(--primary) !important;
 }
+.bg-light{background-color: var(--ligth) !important;}
 .btn{
     border: 0;
-
+}
+.btn-search{
+    right: 5px;
 }
 .btn-primary:hover{
     background-color: var(--primary);
@@ -30,6 +33,9 @@ a:hover{
 }
 .bg-mix{
     background:linear-gradient(180deg, var(--ligth) 50%, var(--grey) 0)
+}
+.avatar{
+    max-width: 32px;
 }
 #sidebar-container{
     min-height: 100vh;
