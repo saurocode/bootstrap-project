@@ -140,12 +140,18 @@
             type: 'bar',
             // The data for our dataset
             data: {
-                labels: ['January', 'February', 'March', 'April', 'May', 'June', 'July'],
+                labels: ['Mayo 2020', 'Junio 2020', 'Julio 2020', 'Agosto 2020'],
                 datasets: [{
-                    label: 'My First dataset',
-                    backgroundColor: 'rgb(255, 99, 132)',
+                    label: 'Nuevos usuarios',
+                    backgroundColor: [
+                      '#3ABEFF',
+                      '#3ABEFF',
+                      '#3ABEFF',
+                      '#111b54'
+                    ],
+                    maxBarThickness: 30,
                     borderColor: 'rgb(255, 99, 132)',
-                    data: [0, 10, 5, 2, 20, 30, 45]
+                    data: [50, 100, 150, 200]
                 }]
             },
             // Configuration options go here
