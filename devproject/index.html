@@ -107,6 +107,23 @@
                 </div>
               </div>
             </section>
+            <section class="bg-grey">
+              <div class="container">
+                <div class="row">
+                  <div class="col-lg-8 my-3">
+                    <div class="card rounded-0">
+                      <div class="card-header bg-light">
+                        <h6 class="font-weight-bold mb-0">Número de usuarios de paga</h6>
+                      </div>
+                      <div class="card-body">
+                        <canvas id="myChart"></canvas>
+                      </div>
+                    </div>
+                    <div class="col-lg-4"></div>
+                  </div>
+                </div>
+              </div>
+            </section>
           </div>
         </div>
     </div>
@@ -116,5 +133,24 @@
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/chart.js@2.9.3/dist/Chart.min.js" integrity="sha256-R4pqcOYV8lt7snxMQO/HSbVCFRPMdrhAFMH+vr9giYI=" crossorigin="anonymous"></script>
+    <script>
+      var ctx = document.getElementById('myChart').getContext('2d');
+        var chart = new Chart(ctx, {
+            // The type of chart we want to create
+            type: 'bar',
+            // The data for our dataset
+            data: {
+                labels: ['January', 'February', 'March', 'April', 'May', 'June', 'July'],
+                datasets: [{
+                    label: 'My First dataset',
+                    backgroundColor: 'rgb(255, 99, 132)',
+                    borderColor: 'rgb(255, 99, 132)',
+                    data: [0, 10, 5, 2, 20, 30, 45]
+                }]
+            },
+            // Configuration options go here
+            options: {}
+        });
+    </script>
   </body>
 </html>

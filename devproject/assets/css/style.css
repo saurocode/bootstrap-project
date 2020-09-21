@@ -12,13 +12,10 @@ body{
 a:hover{
     text-decoration: none;
 }
-.bg-primary{
-    background-color: var(--primary) !important;
-}
-.btn-primary{
-    background-color: var(--primary) !important;
-}
+.bg-primary{background-color: var(--primary) !important;}
+.btn-primary{background-color: var(--primary) !important;}
 .bg-light{background-color: var(--ligth) !important;}
+.bg-grey{background-color: var(--grey) !important;}
 .btn{
     border: 0;
 }
