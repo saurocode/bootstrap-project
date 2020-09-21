@@ -52,4 +52,7 @@ a:hover{
     #sidebar-container{
         display: none;
     }
+    .stat{
+        border: 0;
+    }
 }
