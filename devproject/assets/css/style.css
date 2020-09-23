@@ -48,7 +48,7 @@ a:hover{
     height: 100vh;
     padding-bottom: 5rem;
 }
-/* Solución responsive del sitio web para dispositivos moviles
+/* Solución responsive del sitio web para dispositivos moviles */
 @media (max-width: 768px){
     #sidebar-container{
         display: none;
