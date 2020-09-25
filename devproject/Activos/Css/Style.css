@@ -12,6 +12,7 @@ body{
 a:hover{
     text-decoration: none;
 }
+/*Colors*/
 .bg-primary{background-color: var(--primary) !important;}
 .btn-primary{background-color: var(--primary) !important;}
 .bg-light{background-color: var(--ligth) !important;}
@@ -31,6 +32,7 @@ a:hover{
 .bg-mix{
     background:linear-gradient(180deg, var(--ligth) 50%, var(--grey) 0)
 }
+/*Foto de perfil*/
 .avatar{
     max-width: 32px;
 }
